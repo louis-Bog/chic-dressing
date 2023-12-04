@@ -1,10 +1,10 @@
 === WooCommerce ===
 Contributors: automattic, mikejolley, jameskoster, claudiosanches, rodrigosprimo, peterfabian1000, vedjain, jamosova, obliviousharmony, konamiman, sadowski, wpmuguru, royho, barryhughes-1
 Tags: online store, ecommerce, shop, shopping cart, sell online, storefront, checkout, payments, woo, woo commerce, e-commerce, store
-Requires at least: 6.2
-Tested up to: 6.3
-Requires PHP: 7.3
-Stable tag: 8.1.1
+Requires at least: 6.3
+Tested up to: 6.4
+Requires PHP: 7.4
+Stable tag: 8.3.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -136,7 +136,7 @@ Check out [Frequently Asked Questions](https://docs.woocommerce.com/document/fre
 
 = Minimum Requirements =
 
-* PHP 7.3 or greater is required (PHP 8.0 or greater is recommended)
+* PHP 7.4 or greater is required (PHP 8.0 or greater is recommended)
 * MySQL 5.6 or greater, OR MariaDB version 10.1 or greater, is required
 
 Visit the [WooCommerce server requirements documentation](https://docs.woocommerce.com/document/server-requirements/?utm_source=wp%20org%20repo%20listing&utm_content=3.6) for a detailed list of server requirements.
@@ -163,11 +163,12 @@ WooCommerce comes with some sample data you can use to see how products look; im
 
 == Changelog ==
 
-= 8.1.1 2023-09-15 =
+= 8.3.1 2023-11-21 =
 
 **WooCommerce**
 
-* Fix - Do not send user meta data back in `woocommerce_get_customer_details` response. [#40221](https://github.com/woocommerce/woocommerce/pull/40221)
-* Fix - Fix possible metadata duplication when HPOS is enabled. [#40148](https://github.com/woocommerce/woocommerce/pull/40148)
+* Fix - Invalidate coupon cache after hold/usage data is modified in datastore via SQL [#41538](https://github.com/woocommerce/woocommerce/pull/41538)
+* Update - Update WooCommerce Blocks to 11.4.9. [#41610](https://github.com/woocommerce/woocommerce/pull/41610)
+
 
 [See changelog for all versions](https://raw.githubusercontent.com/woocommerce/woocommerce/trunk/changelog.txt).

@@ -429,7 +429,7 @@ class Social_Warfare {
 			'Twitter',
 			'Linkedin',
 			'Pinterest',
-			'Mix'
+			'Mix',
 		);
 		$this->load_files( '/lib/social-networks/', $social_networks);
 

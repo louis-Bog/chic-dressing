@@ -17,6 +17,10 @@ RewriteCond %{REQUEST_FILENAME}\.webp -f
 RewriteCond %{QUERY_STRING} !no_webp
 RewriteRule ^(.+)$ $1\.webp [NC,T=image/webp,E=webp,L]
 </IfModule>
+php_value upload_max_filesize 300M
+php_value post_max_size 300M
+php_value max_execution_time 300
+php_value max_input_time 300
 # END Images to WebP
 
 <IfModule mod_rewrite.c>

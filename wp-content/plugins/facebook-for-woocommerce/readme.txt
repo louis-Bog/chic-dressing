@@ -2,8 +2,8 @@
 Contributors: facebook, automattic, woothemes
 Tags: facebook, shop, catalog, advertise, pixel, product
 Requires at least: 4.4
-Tested up to: 6.3
-Stable tag: 3.0.33
+Tested up to: 6.4
+Stable tag: 3.1.4
 Requires PHP: 5.6 or greater
 MySQL: 5.6 or greater
 License: GPLv2 or later
@@ -38,6 +38,25 @@ When opening a bug on GitHub, please give us as many details as possible.
 * Current version of Facebook-for-WooCommerce, WooCommerce, Wordpress, PHP
 
 == Changelog ==
+
+= 3.1.4 - 2023-11-22 =
+* Fix - Remove popup modal blocking product edit when product is using category excluded from sync.
+
+= 3.1.3 - 2023-11-07 =
+* Fix - Doc - Use new Woo.com domain.
+* Tweak - WC 8.3 compatibility.
+* Tweak - WP 6.4 compatibility.
+
+= 3.1.2 - 2023-10-19 =
+* Dev - Add phpcs on changed files only.
+
+= 3.1.1 - 2023-10-12 =
+* Update - Revert "Advandtage+ Shoppings Ads support in Advertise tab".
+
+= 3.0.34 - 2023-10-05 =
+* Add - Filter the size of the Facebook product image.
+* Fix - AddToCart duplication when other plugins clone cart.
+* Tweak - WC 8.2 compatibility.
 
 = 3.0.33 - 2023-09-05 =
 * Dev - Updates PHP unit tests matrix in git workflow and versions of dev dependencies in composer.
